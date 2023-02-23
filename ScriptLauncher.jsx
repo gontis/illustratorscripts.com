@@ -172,7 +172,6 @@
       for (var i = 0; i < folderURLs.length; i++) {
 
           var folder = folderURLs[i] == ".." ? new Folder(FOLDER_URL.parent) : new Folder(folderURLs[i]);
-          
           if (folder.exists) {
             folderArray.push(folder);
           }
@@ -872,7 +871,7 @@
     this.w.spacing = 2;
     this.w.margins = 0 //[, 0, 1, 1];
     this.w.location =this.settings.windowLocation || [600,200];
-    this.w.opacity = .92
+    this.w.opacity = .98
     this.w.alignChildren = ["fill", "top"];
 
     var butGroup = this.w.add("panel");
@@ -1220,7 +1219,8 @@
   }
 
     function trace() {
-      return
+      return  
+
       var s = "";
       for (var i = 0; i < arguments.length; i++) {
         s += arguments[i] + " "
