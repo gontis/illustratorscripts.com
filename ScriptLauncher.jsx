@@ -9,12 +9,12 @@
 /// MIT LICENSE 
 
 
-//Cudos to Jongware, Silly-V, and Carlos for all inspration and examples!!!
+//Cudos to Jongware, Silly-V, and Carlos for all inspiration and examples!!!
 
 (function (){
 
 
-  const HALP={
+  var HALP={
     title:"                               Huge library of free scripts - www.illustratorScripts.com                      ",
     rightClickLaunchShort:" You can launch this window by\n right clicking on main window.",
     colorUpdate:"Main tree view will update colors \nonly when you close shortcut window.",
@@ -22,10 +22,12 @@
     multiselect:"You can SHIFT and CTR select several tree items.",
     enableLabels:"You probably want to enable color labels in settings.",
     search:"   Filter scripts here..  ",
-    navigateAway: "Navigate away to save"
+    navigateAway: "Navigate away to save. "
 
 
   }
+  HALP.navigateAway+=HALP.removeShortcut;
+
   
   const VERSION = 0.4
   const APP_VERSION = parseInt(app.version.split(/\./)[0]);
@@ -520,18 +522,18 @@
     
     
     this.open=true;
-    var xx = mainWBounds[0];
+    var xx = mainWBounds.left;
     var yy;
     //
     if(this.main.shortW.open&&Math.abs(this.main.shortW.w.bounds[1]-mainWBounds[1])<3)
        yy=this.main.shortW.w.bounds[3]
     else
       yy = mainWBounds[1];
+      this.w.layout.resize();
 
+      this.w.show();
 
-    this.w.location = [xx - this.w.preferredSize.width, yy];
-    this.w.layout.resize();
-    this.w.show();
+    this.w.location = [xx - this.w.bounds.width, yy];
   }
   SettingsW.prototype.close = function(supress,supressSave) {
     this.open=false;
@@ -695,7 +697,7 @@
   }
   ShortW.prototype.show = function(mainWBounds) {
     this.open=true;
-    var xx = mainWBounds[0];
+    var xx = mainWBounds.left;
 
     var yy;
     //
@@ -705,8 +707,9 @@
       yy = mainWBounds[1];
 
     this.w.layout.resize();
-    this.w.location = [xx - this.w.preferredSize.width, yy];
     this.w.show();
+    trace("XX",xx,"preferd",this.w.preferredSize.width,"bounds:",this.w.bounds.width)
+    this.w.location = [xx - this.w.bounds.width, yy];
 
     //this.onMainWindowSelectionChange(ScriptItem.prototype.lastActiveScript)
   }
