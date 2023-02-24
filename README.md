@@ -11,18 +11,18 @@ Placing a script in the Illustrator script folder, relaunching the application, 
 
 //Key Features:
 
-⦿ Quickly add shortcuts to any script. \cr
-⦿ Filter the script list by entering the name pattern in the search box. \cr
-⦿ Label scripts with color. \cr
+* Quickly add shortcuts to any script. \cr
+* Filter the script list by entering the name pattern in the search box. \cr
+* Label scripts with color. \cr
 
 
 
 //Additional Features:
 
-⦿ Ability to operate with single click, aka button mode.
-⦿ Refresh the script list to reflect file changes.
-⦿ Add or remove multiple folders easily by editing the folders.txt file.
-⦿ Open the script file for editing and the script folder easily.
+* Ability to operate with single click, aka button mode.
+* Refresh the script list to reflect file changes.
+* Add or remove multiple folders easily by editing the folders.txt file.
+* Open the script file for editing and the script folder easily.
 
 
 
