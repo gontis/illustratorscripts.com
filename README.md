@@ -1,8 +1,8 @@
 /////////////// SCRIPT LAUNCHER //////////////////////////////////////////////////
 
-ScriptLauncher.jsx 
+# ScriptLauncher.jsx 
 
-![Script pallette window to launch scripts in Adobe Illustrator](/fullClean.png?raw=true "ScriptLauncher.jsx")
+![Script pallette window to launch scripts in Adobe Illustrator](.crap/fullClean.png?raw=true "ScriptLauncher.jsx")
 
 
 
