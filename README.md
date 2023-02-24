@@ -39,7 +39,7 @@ Writting .. will tell ScriptLauncher to access scripts in parent folder.
 
 ## Installing
 
-depending on your OS, place script in:
+depending on your OS, place ScriptLauncher.jsx in:
 
 Applications > Adobe Illustrator _VERSION_ > Presets > _LANGUAGE_ > Scripts
 My Computer > Program Files > Adobe > Adobe Illustrator _VERSION_  > Presets > _LANGUAGE_> Scripts
