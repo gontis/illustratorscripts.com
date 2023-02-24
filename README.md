@@ -77,7 +77,7 @@ For this approach to work, don't forget to remove _Focus on search bar upon star
 
 * _Focus on search bar upon start_ checkbox. When you start ScriptLauncher you can start typing and filtering scripts. This is checked by default and **should be unchecked if you prefer using shortcuts.**
 * _One Click Operation_ When checked you will launch scripts with one click instead of 2
-* _Return focus to artboard_ If you are running multiple consecutive scripts using shortcuts its best to leave unchecked, so focus will remain on ScriptLauncher * palette. If you are editing paths on artboard and occasionally use a shortcut to launch script, it is best to tick this.
+* _Return focus to artboard_ If you are running multiple consecutive scripts using shortcuts its best to leave unchecked, so focus will remain on ScriptLauncher  palette. If you are editing paths on artboard and occasionally use a shortcut to launch script, it is best to tick this.
 * _Enable color labels_ Does what it says. The reason this checkbox exists is because images implementation is buggy in Adobe Illustrator
 
 ## Folders.txt
