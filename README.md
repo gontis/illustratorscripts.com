@@ -83,7 +83,8 @@ For this approach to work, don't forget to remove _Focus on search bar upon star
 ## Folders.txt
 
 if you create a plain text file named folders.txt in same directory as ScriptLauncher.jsx, ScriptLauncher will read that file looking for absolute file system folder URL's to load scripts from. Each folder URL should be on a new line.
-write .. to include parent folder.
+write .. to include parent folder. 
+_The reason this functionality is included is because ExtendScript in Adobe Illustrator Alias (shortcut) implementation is buggy._
 
 
 
