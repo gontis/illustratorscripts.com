@@ -1,5 +1,3 @@
-/////////////// SCRIPT LAUNCHER //////////////////////////////////////////////////
-
 # ScriptLauncher.jsx 
 
 ![Script pallette window to launch scripts in Adobe Illustrator](.crap/fullClean.png?raw=true "ScriptLauncher.jsx")
@@ -13,9 +11,9 @@ Placing a script in the Illustrator script folder, relaunching the application, 
 
 //Key Features:
 
-⦿ Quickly add shortcuts to any script.
-⦿ Filter the script list by entering the name pattern in the search box.
-⦿ Label scripts with color.
+⦿ Quickly add shortcuts to any script. \cr
+⦿ Filter the script list by entering the name pattern in the search box. \cr
+⦿ Label scripts with color. \cr
 
 
 
