@@ -52,19 +52,19 @@ Also, you can add shortcut to launch ScriptLancher by editing Actions. [You can 
 
 ## Usage
 
-Just double-click on script in the list to launch script. If **Once click operation** is set in settings, that will be single click.
-Pressing (=) will open settings.
-Pressing (R) will reload script list from disk.
-Pressing (+) will open shortcut window, alternatively you can
-Right-click on any script to add a shortcut to it.
+* Just double-click on script in the list to launch script. If **One click operation** is set in settings, that will be single click.
+* Pressing (=) will open settings.
+* Pressing (R) will reload script list from disk.
+* Pressing (+) will open shortcut window, alternatively you can
+* Right-click on any script to add a shortcut to it.
 
 ## Shortcuts
 
-When script is selecten in main window, and **shortcut window is open** press any key to assign a shortcut to it.
-Press any **2 letter keys simultaneously** (ie, A, S, Q, W) to remove shortcut. 
-You can also SHIFT or CMD(CTRL) select main window to remove shortcuts from multiple scripts or color label multiple scripts
-To add color label to script select color circle.
-Click *open script file* to use registered program to open/edit script file, click *open parent folder* to open selected script's parent folder
+* When script is selecten in main window, and **shortcut window is open** press any key to assign a shortcut to it.
+* Press any **2 letter keys simultaneously** (ie, A, S, Q, W) to remove shortcut. 
+* You can also SHIFT or CMD(CTRL) select main window to remove shortcuts from multiple scripts or color label multiple scripts
+* To add color label to script select color circle.
+* Click *open script file* to use registered program to open/edit script file, click *open parent folder* to open selected script's parent folder
 **IMPORTANT**
 For shortcuts to work ScriptLauncher palette has to have focus. Recommended usage is adding Illustrator shortcut to ScriptLauncher (for example, **F2**) and then using
 combo shortcuts. So if you have assigned **F2** shortcut to Script Launcher and  **R** shortcut to, let's say, [remove anchors.jsx](https://www.illustratorscripts.com/scripts/remove-anchors-points/),
@@ -73,10 +73,10 @@ For this approach to work, don't forget to remove _Focus on search bar upon star
 
 ## Settings
 
-_Focus on search bar upon start_ checkbox. When you start ScriptLauncher you can start typing and filtering scripts. This is checked by default and **should be unchecked if you prefer using shortcuts.**
-_One Click Operation_ When checked you will launch scripts with one click instead of 2
-_Return focus to artboard_ If you are running multiple consecutive scripts using shortcuts its best to leave unchecked, so focus will remain on ScriptLauncher palette. If you are editing paths on artboard and occasionally use a shortcut to launch script, it is best to tick this.
-_Enable color labels_ Does what it says. The reason this checkbox exists is because images implementation is buggy in Adobe Illustrator
+* _Focus on search bar upon start_ checkbox. When you start ScriptLauncher you can start typing and filtering scripts. This is checked by default and **should be unchecked if you prefer using shortcuts.**
+* _One Click Operation_ When checked you will launch scripts with one click instead of 2
+* _Return focus to artboard_ If you are running multiple consecutive scripts using shortcuts its best to leave unchecked, so focus will remain on ScriptLauncher * palette. If you are editing paths on artboard and occasionally use a shortcut to launch script, it is best to tick this.
+* _Enable color labels_ Does what it says. The reason this checkbox exists is because images implementation is buggy in Adobe Illustrator
 
 ## Folders.txt
 
