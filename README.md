@@ -65,6 +65,8 @@ Also, you can add shortcut to launch ScriptLancher by editing Actions. [You can 
 * You can also SHIFT or CMD(CTRL) select main window to remove shortcuts from multiple scripts or color label multiple scripts
 * To add color label to script select color circle.
 * Click *open script file* to use registered program to open/edit script file, click *open parent folder* to open selected script's parent folder
+
+
 **IMPORTANT**
 For shortcuts to work ScriptLauncher palette has to have focus. Recommended usage is adding Illustrator shortcut to ScriptLauncher (for example, **F2**) and then using
 combo shortcuts. So if you have assigned **F2** shortcut to Script Launcher and  **R** shortcut to, let's say, [remove anchors.jsx](https://www.illustratorscripts.com/scripts/remove-anchors-points/),
