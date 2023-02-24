@@ -1,10 +1,3 @@
-# illustratorscripts.com
-ExtendScript playground
-<a href="http://www.illustratorscripts.com">www.illustratorscripts.com</a>
-
-
-
-
 /////////////// SCRIPT LAUNCHER //////////////////////////////////////////////////
 
 ScriptLauncher.jsx 
@@ -51,4 +44,5 @@ Writting .. will tell ScriptLauncher to access scripts in parent folder.
 
 
 
-
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+<a href="http://www.illustratorscripts.com">www.illustratorscripts.com</a>
