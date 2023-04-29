@@ -29,7 +29,7 @@
 
     if (app.documents.length == 0 || app.selection.length != 1 || !(app.selection[0].constructor.name == "PathItem" || app.selection[0].constructor.name == "CompoundPathItem")) {
       alert(''' 
-Triangulate. 
+Triangulator.jsx. 
 Select single path or compund path. Text should be
 converted to outlines first. Press [ALT] when starting script for additional options.
 Check for more at illustratorscripts.com
