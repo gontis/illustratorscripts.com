@@ -138,7 +138,7 @@ Check for more at illustratorscripts.com
 
 
 
-  function drawTriangles2(triangles, points) {
+  function drawTriangles2(triangles, points,outerPath) {
 
 
     var layer = doc.layers.add();

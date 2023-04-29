@@ -4,3 +4,4 @@
 /Applications/Adobe Illustrator 2020/Presets.localized/en_US/Scripts/illustratorscriptdev
 /Users/retina/Desktop/illustratorscripts/scripts to publish
 /Users/retina/Desktop/illustratorscripts/scripts to publish/kazkokie weird vokiecio skriptai
+/Applications/Adobe Illustrator 2020/Presets.localized/en_US/Scripts/illustratorscripts.com
