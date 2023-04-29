@@ -87,8 +87,20 @@ write .. to include parent folder.
 _The reason this functionality is included is because ExtendScript in Adobe Illustrator Alias (shortcut) implementation is buggy._
 
 
-
 Happy usage!
+
+
+
+
+# Triangulator.jsx 
+
+![a mesh of varying triangles](.crap/wolfTriangle.png?raw=true "Triangulator.jsx")
+
+The script can take any compound or single shape and use Delaunay triangulation to create a mesh of varying triangles that follow the shape's contours.
+
+Press [ALT] when starting script to adjust number of points added to shape.
+
+
 
 
 

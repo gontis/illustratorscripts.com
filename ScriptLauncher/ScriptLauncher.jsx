@@ -1,4 +1,4 @@
-//@target illustrator
+﻿//@target illustrator
 //@targetengine ScriptLauncher
 //@strict on
 
@@ -328,7 +328,7 @@
     this.artBoardFocus=true;
     this.useColors=true;
 
-    this.settingsFileURL=Folder.myDocuments + "/"+settingsFileName;
+    this.settingsFileURL=""+Folder.myDocuments + "/"+settingsFileName;
     this.positionW=[800,200];
     this.scripts={};
     
