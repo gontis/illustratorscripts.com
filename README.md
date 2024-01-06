@@ -29,7 +29,8 @@ ScriptLauncher will create a ScriptLauncher.json file in the <User>/Documents/ f
 
 ScriptLauncher will read the folders.txt file from the parent folder. In the folders.txt file, users can place folder URLs from where scripts will be read and added to the ScriptLauncher script list. For example, if user keeps some scripts on network drive or on Desktop, he can add 
 
-~/Desktop/NEW_SCRIPTS 
+~/Desktop/NEW_SCRIPTS
+
 \\192.168.1.11\scripts
 
 and ScriptLauncher will load scripts from desktop and from remote machine.
