@@ -208,19 +208,34 @@ try {
             }
         }
 
+        function callGarbageMan(){
+            $.gc();
+        }
+
+        function callPainter(){
+            redraw()
+        }
+
         log("// Starting test, doc has " + activeDocument.pageItems.length + " pageItems");
 
         var fns = [
             findItem,
             findSymbol,
-            dupItem,
-            dupItemAndLeftTop,
-            dupItemAndMatrix,
-            dupItemAndTranslate,
+
             placeSymbol,
             placeSymbolAndLeftTop,
             placeSymbolAndMatrix,
             placeSymbolAndTranslate,
+
+            callPainter,
+
+            dupItem,
+            dupItemAndLeftTop,
+            dupItemAndMatrix,
+            dupItemAndTranslate,
+            
+            callPainter,
+
             itemsLeftTop,
             symbolsLeftTop,
             itemsMatrix,
